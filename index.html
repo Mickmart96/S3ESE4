@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Tombola</title>
+</head>
+<body>
+  <h1>Tombola</h1>
+  <button onclick="estraiNumero()">Estrai Numero</button>
+  
+  <div id="tabellone" class="board"></div>
+
+  <h2>Cartella del Giocatore</h2>
+  <label for="numeroTabelline">Numero di Cartelle: </label>
+  <input type="number" id="numeroTabelline" min="1" max="10" value="1">
+  <button onclick="generaTabelline()">Genera Cartelle</button>
+
+  <div id="tabelline" class="board"></div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
